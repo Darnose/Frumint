@@ -77,7 +77,7 @@
         display: block;
         text-align: left;
     }
-    .menu__item:hover {
+    .menu__item a:hover {
         border-bottom: 1px solid #F5F5F5;
     }
     .main {
