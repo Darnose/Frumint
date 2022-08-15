@@ -1,0 +1,286 @@
+/* ------ Media Queries ------ */
+
+/* 1200-1400px */
+@media screen and (max-width: 1400px) {
+   .navigation {
+        margin: 0;
+   }
+   .dignity {
+        width: 96%;
+        padding: 72px 90px 108px;
+   }
+}
+/* 991-1200px */
+@media screen and (max-width: 1200px) {
+   .container {
+        width: 960px;
+   }
+   .logo {
+        display: flex;
+        justify-content: center;
+   }
+   .menu {
+        margin-left: 25px;
+   }
+   .description {
+        width: auto;
+   }
+   .dignity {
+        padding: 72px 0 108px;
+   }
+   .manual {
+        margin-left: 0;
+   }
+   .advantage__item {
+        margin-left: auto;
+        margin-right: auto;
+   }
+   .advantages h2 {
+        text-align: center;
+   }
+   .usage {
+        margin-left: auto;
+        margin-right: auto;
+   }
+   .ingridients {
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+   }
+   .technology {
+        width: auto;
+   }
+}
+
+/* 767-991px */
+@media screen and (max-width: 991px) {
+    .container {
+        width: 720px;
+    }
+    h1 {
+        font-size: 32px;
+        line-height: 35.2px;
+    }
+    .header {
+        padding: 40px 0 140px;
+    }
+    .menu__item:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .menu__item {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        width: 200px;
+        display: block;
+        text-align: left;
+    }
+    .menu__item:hover {
+        border-bottom: 1px solid #F5F5F5;
+    }
+    .main {
+        margin-top: 89px;
+    }
+    .description {
+        margin-top: 10px;
+    }
+    .advantages {
+        padding: 140px 0 40px;
+    }
+    .dignity__text {
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .dignity__item span {
+        font-size: 56px;
+        line-height: 56px;
+    }
+   .hookah {
+        height: 75%;
+   }
+   .usage {
+        margin-top: 25px;
+   }
+   .How-to-use {
+        padding-bottom: 0;
+    }
+    .dried-fruit {
+        margin-left: 0;
+    }
+    .honey {
+        margin-left: 0;
+    }
+    .technology {
+        width: 310px;
+        margin-left: 0;
+        margin-bottom: 99px;
+    }
+    .ingridients {
+        width: 415px;
+        text-align: center;
+    }
+}
+
+/* 575-767px */
+@media screen and (max-width: 767px) {
+    .container {
+        width: 540px;
+    }
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .description__btn {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .product {
+        margin-top: 80px;
+    }
+    .wrapper {
+        margin-top: 40px;
+    }
+    .dignity__text {
+        width: 350px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .dignity {
+        padding: 50px 0 75px;
+    }
+    .dignity__item:not(:last-child) {
+        margin-bottom: 50px;
+    }
+    .advantages {
+        padding-bottom: 0;
+    }
+    .How-to-use {
+        padding-bottom: 0;
+    }
+    .usage {
+        margin-bottom: 60px;
+    }
+    .manual .row {
+        flex-wrap: wrap-reverse;
+    }
+    .usage__title {
+        margin-bottom: 52px;
+        text-align: center;
+    }
+    .technology {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .technology {
+        width: 415px;
+        margin-bottom: 40px;
+    }
+    .mint {
+        margin-top: 40px;
+    }
+    .dried-fruit {
+        margin-top: 40px;
+    }
+    .text {
+        margin-bottom: 78px;
+    }
+    .ingridients {
+        margin-top: 0;
+    }
+    .compound {
+        padding-top: 30px;
+        padding-bottom: 120px;
+    }
+    .usage {
+        margin-bottom: 0;
+   }
+   .hookah {
+        margin-top: 60px;
+   }
+    .menu-footer {
+        margin-top: 60px;
+    }
+    .menu-footer__item {
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+}
+
+/* 320-575px */
+@media screen and (max-width: 575px) {
+    .container {
+        width: 100%;
+    }
+    h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .product {
+        height: 85%;
+        width: 85%;
+    }
+    .description {
+        margin: 0;
+    }
+    .description__text {
+        font-size: 12px;
+        line-height: 19px;
+        width: 245px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .description__title {
+        width: 302px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .description__btn {
+        margin-top: 48px;
+    }
+   .header {
+        padding-bottom: 120px;
+   }
+   .dignity {
+        padding: 50px 0 25px;
+   }
+   .dignity__text {
+        width: 285px;
+   }
+   .dignity__title {
+        font-size: 24px;
+        line-height: 32px;
+   }
+   .dignity__item {
+        margin-bottom: 50px;
+    }
+    .advantages {
+        padding-top: 100px;
+    }
+   .advantage__item {
+        display: flex;
+        width: 250px;
+        margin-bottom: 60px;
+   }
+   .advantage__text {
+        margin-left: 24px;
+        margin-top: 0;
+   }
+   .technology {
+        width: auto;
+   }
+   .ingridients {
+        width: auto;
+   }
+   .text {
+        margin-bottom: 60px;
+   }
+   .dried-fruit {
+        margin-top: 0;
+   }
+}

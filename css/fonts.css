@@ -1,0 +1,32 @@
+@font-face {
+font-family: 'Poppins';
+src: url('../fonts/Poppins-Medium.eot'); /* IE9 Compat Modes */
+src: url('../fonts/Poppins-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('../fonts/Poppins-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+     url('../fonts/Poppins-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+     url('../fonts/Poppins-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+     url('../fonts/Poppins-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+          font-weight: 500;
+}
+
+@font-face {
+font-family: 'Poppins';
+src: url('../fonts/Poppins-Regular.eot'); /* IE9 Compat Modes */
+src: url('../fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('../fonts/Poppins-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+     url('../fonts/Poppins-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+     url('../fonts/Poppins-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+     url('../fonts/Poppins-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */ 
+          font-weight: 400;
+}
+   
+@font-face {
+font-family: 'Poppins';
+src: url('../fonts/Poppins-SemiBold.svg'); /* IE9 Compat Modes */
+src: url('../fonts/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('../fonts/Poppins-SemiBold.woff2') format('woff2'), /* Super Modern Browsers */
+     url('../fonts/Poppins-SemiBold.woff') format('woff'), /* Pretty Modern Browsers */
+     url('../fonts/Poppins-SemiBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+     url('../fonts/Poppins-SemiBold.svg#svgFontName') format('svg'); /* Legacy iOS */
+          font-weight: 600;
+}  
