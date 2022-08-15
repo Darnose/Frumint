@@ -239,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
     background:#6E9B63;
     top: -300%;
     left: 0%;
-    border-radius: 50%;
+    border-radius: 1px;
 }
 
 .line {
@@ -247,7 +247,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 18px;
     height: 2px;
     background:#6E9B63;
-    border-radius: 50%;
+    border-radius: 1px;
 }
 
 .line::after {
@@ -258,7 +258,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 18px;
     height: 2px;
     background:#6E9B63;
-    border-radius: 50%;
+    border-radius: 1px;
 }
 
 .menu {
