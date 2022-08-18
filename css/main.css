@@ -1,4 +1,8 @@
 /* ------ Specification ------ */
+html {
+    overflow-x: hidden;
+}
+
 body {
 	font-family: 'Poppins', sans-serif;
 	padding: 0;
@@ -6,7 +10,6 @@ body {
 	font-size: 16px;
     font-weight: 400;
     background: #F5F5F5;
-    overflow-x: hidden;
 }
 
 body.lock {
@@ -416,7 +419,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .petal-1 {
     position: absolute;
-    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center;
+    background-size: contain;
     width: 138px;
     height: 83px;
     left: -4%;
@@ -427,7 +431,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .petal-2 {
     position: absolute;
-    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center;
+    background-size: contain;
     width: 63px;
     height: 33px;
     left: 50%;
@@ -438,7 +443,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .petal-3 {
     position: absolute;
-    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center;
+    background-size: contain;
     width: 65px;
     height: 39px;
     left: 84%;
@@ -449,7 +455,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .petal-4 {
     position: absolute;
-    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center;
+    background-size: contain;
     width: 83px;
     height: 50px;
     left: 86%;
@@ -461,7 +468,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .petal-5 {
     position: absolute;
-    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/contain;
     width: 106px;
     height: 63px;
     left: 95%;
@@ -472,7 +479,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .petal-6 {
     position: absolute;
-    background: url(../img/Photos/Mint\ leaf\ side.png) no-repeat center center/cover;
+    background: url(../img/Photos/Mint\ leaf\ side.png) no-repeat center center/contain;
     width: 75px;
     height: 28px;
     left: 38%;
@@ -561,7 +568,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .petal-7 {
     position: absolute;
-    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/contain;
     width: 138px;
     height: 83px;
     left: 11%;
@@ -572,7 +579,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .petal-8 {
     position: absolute;
-    background: url(../img/Photos/Mint\ leaf\ side.png) no-repeat center center/cover;
+    background: url(../img/Photos/Mint\ leaf\ side.png) no-repeat center center/contain;
     width: 96px;
     height: 35px;
     left: 87%;
@@ -640,7 +647,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .petal-9 {
     position: absolute;
-    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/contain;
     width: 94px;
     height: 57px;
     left: 0%;
@@ -651,7 +658,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .petal-10 {
     position: absolute;
-    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/contain;
     width: 148px;
     height: 89px;
     left: 95%;
@@ -662,7 +669,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .petal-11 {
     position: absolute;
-    background: url(../img/Photos/Mint\ leaf\ side.png) no-repeat center center/cover;
+    background: url(../img/Photos/Mint\ leaf\ side.png) no-repeat center center/contain;
     width: 96px;
     height: 35px;
     left: -3%;
@@ -777,7 +784,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .petal-12 {
     position: absolute;
-    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/contain;
     width: 87px;
     height: 52px;
     left: 94%;
@@ -788,7 +795,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .petal-13 {
     position: absolute;
-    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/contain;
     width: 131px;
     height: 79px;
     left: -4%;
