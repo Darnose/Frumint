@@ -12,13 +12,13 @@ $(document).ready(function(){
 		                    
 				// Прокручиваем фон со скоростью var.
 				// Значение yPos отрицательное, так как прокручивание осуществляется вверх!
-				var yPos = -($window.scrollTop() / $bgobj.data('speed')); 
+				var yPos = ($window.scrollTop() / $bgobj.data('speed')); 
 				
 				// Размещаем все вместе в конечной точке
-				var coords = '50% '+ yPos + 'px';
+				var coords = +yPos + 'px';
 
 				// Смещаем фон
-				$bgobj.css({ backgroundPosition: coords });
+				$bgobj.css({ top: coords });
 				
 			}); 
 

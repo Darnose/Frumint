@@ -10,6 +10,7 @@ body {
 	font-size: 16px;
     font-weight: 400;
     background: #F5F5F5;
+    overflow-x: hidden !important;
 }
 
 body.lock {
@@ -685,7 +686,6 @@ h1, h2, h3, h4, h5, h6 {
     height: 50%;
     width: 25%;
     transform: scaleX(-1);
-    overflow: hidden;
     z-index: -1;
 }
 
