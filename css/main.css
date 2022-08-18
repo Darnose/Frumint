@@ -6,6 +6,7 @@ body {
 	font-size: 16px;
     font-weight: 400;
     background: #F5F5F5;
+    overflow-x: hidden;
 }
 
 body.lock {
@@ -147,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
 /* ------ First section ------ */
 
 .header {
-    padding: 40px 0 222px;
+    padding: 40px 0 0;
     position: relative;
 }
 
@@ -288,8 +289,28 @@ h1, h2, h3, h4, h5, h6 {
     color: #F5F5F5;
 }
 
-.main {
-    margin-top: 163px;
+.leaf-1 {
+    position: absolute;
+    top: 0%;
+    left: 93%;
+    height: 100%;
+    width: 20%;
+    transform: scaleX(1);
+    overflow: hidden;
+    z-index: -1;
+}
+
+.leaf-1 img {
+    top: -60%;
+    position: absolute;
+}
+
+/* ------ Second section ------ */
+
+.content {
+    position: relative;
+    padding-top: 163px;
+    padding-bottom: 222px;
 }
 
 .description {
@@ -299,7 +320,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .description__text {
     margin-top: 34px;
-    max-width: 400px;
+    max-width: 390px;
     line-height: 25.6px;
 }
 
@@ -334,31 +355,132 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .front {
-    width: 59%;
-    height: 100%;
+    width: 70%;
     position: relative;
     z-index: 10;
 }
 
 .back-1 {
     position: absolute;
-    width: 48%;
-    height: 82%;
+    width: 57%;
     top: 9.2%; 
-    left: 0.7%;
+    left: -3.7%;
     z-index: 1;
 }
 
 .back-2 {
     position: absolute;
-    width: 48%;
-    height: 82%;
+    width: 57%;
     top: 9.2%; 
-    left: 50.5%;
+    left: 48%;
     z-index: 1;
 }
 
-/* ------ Second section ------ */
+.leaf-2 {
+    background: url(../img/Leaves-illustration/One-leaf.svg) no-repeat left center/cover;
+    position: absolute;
+    top: -7%;
+    left: 48%;
+    height: 23%;
+    width: 23%;
+    transform: scaleX(-1);
+    z-index: -1;
+}
+
+.leaf-3 {
+    background: url(../img/Leaves-illustration/Big-leaf.svg) no-repeat bottom center/cover;
+    position: absolute;
+    top: 35%;
+    left: -22.5%;
+    height: 50%;
+    width: 50%;
+    transform: scaleX(-1);
+    z-index: -1;
+}
+
+.leaf-4 {
+    position: absolute;
+    top: 35%;
+    left: 0%;
+    height: 50%;
+    width: 25%;
+    transform: scaleX(1);
+    overflow: hidden;
+    z-index: -1;
+}
+
+.leaf-4 img {
+    left: -60%;
+    position: absolute;
+}
+
+.petal-1 {
+    position: absolute;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
+    width: 138px;
+    height: 83px;
+    left: -4%;
+    top: 17%;
+    filter: blur(4px);
+    transform: rotate(-30deg);
+}
+
+.petal-2 {
+    position: absolute;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
+    width: 63px;
+    height: 33px;
+    left: 50%;
+    top: 15%;
+    filter: blur(2px);
+    transform: rotate(30deg);
+}
+
+.petal-3 {
+    position: absolute;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
+    width: 65px;
+    height: 39px;
+    left: 84%;
+    top: 6%;
+    filter: blur(2px);
+    transform: rotate(-45deg);
+}
+
+.petal-4 {
+    position: absolute;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
+    width: 83px;
+    height: 50px;
+    left: 86%;
+    top: 29%;
+    filter: blur(2px);
+    transform: rotate(150deg);
+    z-index: 20;
+}
+
+.petal-5 {
+    position: absolute;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
+    width: 106px;
+    height: 63px;
+    left: 95%;
+    top: 67%;
+    filter: blur(3px);
+    transform: rotate(-150deg);
+}
+
+.petal-6 {
+    position: absolute;
+    background: url(../img/Photos/Mint\ leaf\ side.png) no-repeat center center/cover;
+    width: 75px;
+    height: 28px;
+    left: 38%;
+    top: 56%;
+    filter: blur(4px);
+    transform: rotate(-25deg);
+}
+/* ------ Third section ------ */
 
 .dignity {
     max-width: 1276px;
@@ -407,9 +529,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: auto;
 }
 
-/* ------ Third section ------ */
+/* ------ Fourth section ------ */
 
 .advantages {
+    position: relative;
     padding: 295px 0 154px;
 }
 
@@ -436,9 +559,48 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 24px;
 }
 
-/* ------ Fourth section ------ */
+.petal-7 {
+    position: absolute;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
+    width: 138px;
+    height: 83px;
+    left: 11%;
+    top: 13%;
+    filter: blur(4px);
+    transform: rotate(-30deg);
+}
+
+.petal-8 {
+    position: absolute;
+    background: url(../img/Photos/Mint\ leaf\ side.png) no-repeat center center/cover;
+    width: 96px;
+    height: 35px;
+    left: 87%;
+    top: 32%;
+    filter: blur(4px);
+    transform: rotate(25deg);
+}
+
+.leaf-5 {
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    height: 50%;
+    width: 20%;
+    transform: scaleX(-1);
+    overflow: hidden;
+    z-index: -1;
+}
+
+.leaf-5 img {
+    left: 50%;
+    position: absolute;
+}
+
+/* ------ Fifth section ------ */
 
 .How-to-use {
+    position: relative;
     padding-bottom: 254px ;
 }
 
@@ -476,9 +638,59 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 15px;
 }
 
-/* ------ Fifth section ------ */
+.petal-9 {
+    position: absolute;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
+    width: 94px;
+    height: 57px;
+    left: 0%;
+    top: -7%;
+    filter: blur(4px);
+    transform: rotate(-150deg);
+}
+
+.petal-10 {
+    position: absolute;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
+    width: 148px;
+    height: 89px;
+    left: 95%;
+    top: 20%;
+    filter: blur(4px);
+    transform: rotate(30deg);
+}
+
+.petal-11 {
+    position: absolute;
+    background: url(../img/Photos/Mint\ leaf\ side.png) no-repeat center center/cover;
+    width: 96px;
+    height: 35px;
+    left: -3%;
+    top: 38%;
+    filter: blur(4px);
+    transform: rotate(-25deg);
+}
+
+.leaf-6 {
+    position: absolute;
+    top: 35%;
+    left: 90%;
+    height: 50%;
+    width: 25%;
+    transform: scaleX(-1);
+    overflow: hidden;
+    z-index: -1;
+}
+
+.leaf-6 img {
+    left: -10%;
+    position: absolute;
+}
+
+/* ------ Sixth section ------ */
 
 .compound {
+    position: relative;
     padding-bottom: 172px ;
 }
 
@@ -563,7 +775,46 @@ h1, h2, h3, h4, h5, h6 {
     color: #888888;
 }
 
-/* ------ Sixth section ------ */
+.petal-12 {
+    position: absolute;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
+    width: 87px;
+    height: 52px;
+    left: 94%;
+    top: 6%;
+    filter: blur(3px);
+    transform: rotate(45deg);
+}
+
+.petal-13 {
+    position: absolute;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
+    width: 131px;
+    height: 79px;
+    left: -4%;
+    top: 74%;
+    filter: blur(4px);
+    transform: rotate(-30deg);
+}
+
+.leaf-7 {
+    position: absolute;
+    top: 0%;
+    left: 3%;
+    height: 25%;
+    width: 20%;
+    transform: rotate(120deg);
+    overflow: hidden;
+    z-index: -1;
+}
+
+.leaf-7 img {
+    top: 35%;
+    position: absolute;
+}
+
+
+/* ------ Seventh section ------ */
 
 .footer {
     background: #6E9B63;

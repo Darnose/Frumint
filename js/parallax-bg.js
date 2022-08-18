@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	if ($(window).width() > 960)
+	if ($(window).width() > 100)
     { 
 		// Кешируем объект окна
 			$window = $(window);

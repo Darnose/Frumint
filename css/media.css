@@ -51,7 +51,30 @@
    .technology {
         width: auto;
    }
-}
+   .leaf-5 {
+        top: 65%;
+   }
+   .leaf-6 {
+        top: 30%;
+        height: 70%;
+        width: 40%;
+        left: 85%;
+   }
+   .petal-1 {
+        width: 98px;
+        height: 63px;
+        left: -4%;
+        top: 5%;
+        transform: rotate(30deg);
+   }
+   .petal-2 {
+        left: 50%;
+        top: 5%;
+   }
+   .petal-7 {
+        width: 98px;
+        height: 63px;
+   }
 
 /* 767-991px */
 @media screen and (max-width: 991px) {
@@ -62,8 +85,9 @@
         font-size: 32px;
         line-height: 35.2px;
     }
-    .header {
-        padding: 40px 0 140px;
+    .content {
+        padding-top: 89px;
+        padding-bottom: 140px;
     }
     .menu__item:not(:last-child) {
         margin-right: 0;
@@ -79,9 +103,6 @@
     }
     .menu__item a:hover {
         border-bottom: 1px solid #F5F5F5;
-    }
-    .main {
-        margin-top: 89px;
     }
     .description {
         margin-top: 10px;
@@ -243,19 +264,19 @@
     .description__btn {
         margin-top: 48px;
     }
-   .header {
+   .content {
         padding-bottom: 120px;
-   }
+    }
    .dignity {
         padding: 50px 0 25px;
-   }
+    }
    .dignity__text {
         width: 285px;
-   }
+    }
    .dignity__title {
         font-size: 24px;
         line-height: 32px;
-   }
+    }
    .dignity__item {
         margin-bottom: 50px;
     }
@@ -266,21 +287,49 @@
         display: flex;
         width: 250px;
         margin-bottom: 60px;
-   }
+    }
    .advantage__text {
         margin-left: 24px;
         margin-top: 0;
-   }
+    }
    .technology {
         width: auto;
-   }
+    }
    .ingridients {
         width: auto;
-   }
+    }
    .text {
         margin-bottom: 60px;
-   }
+    }
    .dried-fruit {
         margin-top: 0;
-   }
+    }
+    .petal-1 {
+        width: 60px;
+        height: 40px;
+    }
+    .petal-3 {
+        width: 50px;
+        height: 30px;
+    }
+    .petal-5 {
+        left: 92%;
+    }
+    .petal-7 {
+        width: 60px;
+        height: 40px;
+        left: 0%;
+    }
+    .petal-8 {
+        width: 50px;
+        height: 30px;
+        left: 92%;
+    }
+    .petal-12 {
+        left: 90%;
+    }
+    .petal-13 {
+        width: 60px;
+        height: 40px;
+    }
 }
