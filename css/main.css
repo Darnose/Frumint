@@ -54,6 +54,13 @@ h2 {
     color: #6E9B63;
 }
 
+h3 {
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: -0.03em;
+    font-weight: 600;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	padding: 0;
 	margin: 0;
@@ -487,6 +494,50 @@ h1, h2, h3, h4, h5, h6 {
     top: 56%;
     filter: blur(4px);
     transform: rotate(-25deg);
+}
+
+.news {
+    padding: 94px 0 120px;
+}
+
+.news h1 {
+    color: #6E9B63;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.news__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    border-radius: 8px;
+    max-width: 370px;
+    height: 517px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 30px;
+}
+
+.news__title {
+    margin-top: 20px;
+    margin-bottom: 12px;
+    color: #141414;
+}
+
+.news img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.news__text {
+    color: #424242;
+}
+
+.news time {
+    margin-top: auto;
+    color: #A9A9A9;
 }
 /* ------ Third section ------ */
 

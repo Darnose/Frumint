@@ -1,6 +1,6 @@
 /* ------ Media Queries ------ */
 
-/* 1200-1400px */
+/* 1199-1400px */
 @media screen and (max-width: 1400px) {
    .navigation {
         margin: 0;
@@ -10,8 +10,8 @@
         padding: 72px 90px 108px;
    }
 }
-/* 991-1200px */
-@media screen and (max-width: 1200px) {
+/* 991-1199px */
+@media screen and (max-width: 1199px) {
    .container {
         width: 960px;
    }
@@ -20,7 +20,7 @@
         justify-content: center;
    }
    .menu {
-        margin-left: 25px;
+        margin-left: 15px;
    }
    .description {
         width: auto;
@@ -147,6 +147,9 @@
 
 /* 575-767px */
 @media screen and (max-width: 767px) {
+    h3 {
+        font-size: 18px;
+    }
     .container {
         width: 540px;
     }
@@ -230,6 +233,12 @@
     .menu-footer__item {
         margin-bottom: 20px;
         justify-content: center;
+    }
+    .news__text {
+        font-size: 14px;
+    }
+    .news time {
+        font-size: 14px;
     }
 }
 
