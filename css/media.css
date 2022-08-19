@@ -42,6 +42,9 @@
         margin-left: auto;
         margin-right: auto;
    }
+   .menu-opened .menu__item {
+        margin-left: 100px;
+    }
    .ingridients {
         display: flex;
         justify-content: center;
@@ -75,7 +78,13 @@
         width: 98px;
         height: 63px;
    }
-
+   .petal-14 {
+        left: 40%;
+   }
+   .petal-15 {
+        left: 58%;
+   }
+}
 /* 767-991px */
 @media screen and (max-width: 991px) {
     .container {
@@ -125,6 +134,9 @@
    .usage {
         margin-top: 25px;
    }
+   .menu-opened .menu__item {
+        margin-left: 70px;
+    }
    .How-to-use {
         padding-bottom: 0;
     }
@@ -143,6 +155,12 @@
         width: 415px;
         text-align: center;
     }
+    .petal-14 {
+        left: 38%;
+   }
+   .petal-15 {
+        left: 60%;
+   }
 }
 
 /* 575-767px */
@@ -217,6 +235,9 @@
     .ingridients {
         margin-top: 0;
     }
+    .menu-opened .menu__item {
+        margin-left: 50px;
+    }
     .compound {
         padding-top: 30px;
         padding-bottom: 120px;
@@ -240,6 +261,12 @@
     .news time {
         font-size: 14px;
     }
+    .petal-14 {
+        left: 36%;
+   }
+   .petal-15 {
+        left: 62%;
+   }
 }
 
 /* 320-575px */
@@ -313,6 +340,9 @@
    .dried-fruit {
         margin-top: 0;
     }
+    .leaf-5 img {
+        left: 20%;
+    }
     .petal-1 {
         width: 60px;
         height: 40px;
@@ -341,4 +371,10 @@
         width: 60px;
         height: 40px;
     }
+    .petal-14 {
+        left: 26%;
+   }
+   .petal-15 {
+        left: 68%;
+   }
 }
