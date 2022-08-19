@@ -618,6 +618,23 @@ li.active .menu-admin__text {
     color: #A9A9A9;
 }
 
+.pagination {
+    margin-left: 65px;
+    margin-top: 4px;
+}
+
+.pagination__page {
+    margin-right: 47px;
+}
+
+.pagination__url {
+    cursor: pointer;
+}
+
+.pagination__url:not(:last-child) {
+    margin-right: 16px;
+}
+
 .petal-14 {
     position: absolute;
     background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/contain;
