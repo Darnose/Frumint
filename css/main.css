@@ -78,6 +78,39 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
 
+th {
+    background: #EAF4E7;
+    border-width: 0px 0px 0px 1px;
+    border-style: solid;
+    border-color: #748B6E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+td {
+    background: rgba(255, 255, 255, 0.002);
+    border-width: 1px 0px 0px 1px;
+    border-style: solid;
+    border-color: #B9B9B9;
+}
+
+td, th {
+    padding: 10px 12px;
+    
+}
+
+tr {
+    display: flex;
+    flex-direction: row;
+}
+
+table {
+    border: 1px solid #748B6E;
+    font-size: 14px;
+    line-height: 22px;
+}
+
 .input, input:hover, input:focus, input:active, button, button:hover, button:focus, input:active {
     outline: none;
 } 
@@ -339,12 +372,18 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
 }
 
+.admin {
+    display: flex;
+}
+
 .menu-admin {
     padding: 49px 40px 0px 44px;
     width: 280px;
     height: 900px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
     user-select: none;
+    background: #fff;
 }
 
 .menu-admin__title {
@@ -356,8 +395,21 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
 }
 
+.menu-admin__item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
 .menu-admin__text {
     margin-left: 14px;
+}
+
+.menu-list {
+    margin-top: -4px;
+    margin-bottom: 20px;
+}
+
+.menu-list__text {
+    margin-bottom: 8px;
 }
 
 .arrow {
@@ -366,6 +418,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     margin-left: auto;
     font-size: 12px;
+    transition: all 0.5s ease ;
 }
 
 li.active .arrow {
@@ -391,6 +444,285 @@ li.active .menu-admin__text {
 
 #list > li > ul {
     display: none;
+}
+
+.admin-descr {
+    padding: 32px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #E6E6E6;
+}
+
+::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 10px #A4A4A4;
+    border-radius: 15px;
+}
+
+.admin-descr__main {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    background: #fff;
+    padding: 0px 38px 0 32px;
+    border-radius: 8px;
+    width: 1096px;
+    overflow-y: scroll;
+    height: 868px;
+}
+
+.admin-descr__title {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.filter__btn {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+    border: none;
+    background: transparent;
+}
+
+.trash {
+    background: #F04563;
+    border-radius: 4px;
+    color: #fff;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    border: 2px solid transparent;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+
+.stars {
+    font-size: 12px;
+}
+
+.trash:hover {
+    background: #fff;
+    color: #F04563;
+    border: 2px solid #F04563;
+}
+
+.table__id-1 {
+    width: 82px;
+    border-left: transparent;
+}
+
+.table__id-2 {
+    width: 58px;
+    border-left: transparent;
+}
+
+.table__title {
+    width: 215px;
+}
+
+.table__product {
+    width: 136px;
+}
+
+.table__rate {
+    font-size: 16px;
+    width: 109px;
+}
+
+.table__name-1 {
+    width: 148px;
+}
+
+.table__name-2 {
+    width: 169px;
+    border-left: transparent;
+}
+
+.table__mail {
+    width: 257px;
+}
+
+.table__msg {
+    width: 341px;
+}
+
+.table__text {
+    width: 232px;
+}
+
+.table__descr {
+    width: 270px;
+}
+
+.table__img {
+    display: flex;
+    flex-direction: row;
+    width: 325px;
+}
+
+td img {
+    width: 301px;
+}
+
+.table__action-1 {
+    width: 111px;
+}
+
+.table__action-2 {
+    width: 74px;
+}
+
+.edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background: #6E9B63;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    border: 2px solid transparent;
+    transition: all 0.5s ease;
+}
+
+.edit:hover {
+    background: transparent;
+    color: #6E9B63;
+    border: 2px solid #6E9B63;
+}
+
+.add-news__title {
+    display: flex;
+}
+
+.add-news p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 7px;
+}
+
+.add-news-fr {
+    margin-top: 40px;
+}
+
+textarea {
+    margin-left: auto;
+    border: 1px solid #232323;
+    border-radius: 8px;
+    width: 775px;
+    padding: 6px 12px;
+    resize: none;
+    overflow-y: hidden;
+}
+
+.add-news__title textarea {
+    height: 34px;
+}
+
+.add-news__descr textarea {
+    height: 80px;
+}
+
+.add-news__text textarea {
+    height: 304px;
+}
+
+.wrap {
+    display: flex;
+    margin-bottom: 20px;
+    color: #141414;
+}
+
+.news-image {
+    margin-top: 40px;
+}
+
+.toggle {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    width: 775px;
+    border: 1px solid #232323;
+    border-radius: 8px;
+    font-size: 14px;
+    height: 34px;
+}
+
+.press {
+    background: #424242;
+    border-radius: 5px 0px 0px 5px;
+    color: #fff;
+    border: none;
+    padding: 6px 16px;
+    width: 135px;
+}
+
+.passive {
+    background: #FFFFFF;
+    border-radius: 8px;
+    color: #8C8C8C;
+    width: 638px;
+    text-align: left;
+    border: none;
+    padding: 6px 16px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 151px;
+    height: 102px;
+    border: 1px solid #8C8C8C;
+    border-radius: 4px;
+    font-size: 35px;
+    color: #8C8C8C;
+    margin-right: auto;
+    margin-left: 242px;
+    transition: all 0.3s ease;
+}
+
+.news__btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background: linear-gradient(90deg, #769D6D 0%, #588A4D 100%);
+    border-radius: 21px;
+    padding: 8px 40px;
+    border: 2px solid transparent;
+    background: #769D6D;
+    font-size: 16px;
+    color: #fff;
+    transition: all 0.5s ease;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.news__btn:hover {
+    color: #769D6D;
+    background: transparent;
+    border: 2px solid #769D6D;
+}
+
+.change {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete {
+    background: #F04563;
+}
+
+.delete:hover {
+    color: #F04563;
+    background: transparent;
+    border: 2px solid #F04563;
 }
 
 /* ------ Second section ------ */
@@ -598,12 +930,6 @@ li.active .menu-admin__text {
     margin-bottom: 30px;
 }
 
-.news__title {
-    margin-top: 20px;
-    margin-bottom: 12px;
-    color: #141414;
-}
-
 .news img {
     width: 100%;
     border-radius: 4px;
@@ -619,11 +945,11 @@ li.active .menu-admin__text {
 }
 
 .pagination {
-    margin-left: 65px;
     margin-top: 4px;
 }
 
 .pagination__page {
+    margin-left: auto;
     margin-right: 47px;
 }
 
