@@ -525,6 +525,10 @@ li.active .menu-admin__text {
     width: 215px;
 }
 
+.table__price {
+    width: 60px;
+}
+
 .table__product {
     width: 136px;
 }
@@ -553,6 +557,14 @@ li.active .menu-admin__text {
 
 .table__text {
     width: 232px;
+}
+
+.table__compound {
+    width: 192px;
+}
+
+.table__link {
+    width: 145px;
 }
 
 .table__descr {
