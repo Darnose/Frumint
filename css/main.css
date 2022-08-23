@@ -123,6 +123,7 @@ table {
     color: #6E9B63;
 }
 
+
 .big-green {
     height: 52px;
     width: 32px;
@@ -623,6 +624,14 @@ td img {
     margin-top: 40px;
 }
 
+.tox-tinymce {
+    margin: 0 0 0 auto !important;
+    width: 775px !important;
+    resize: none !important;
+    border: 1px solid black !important;
+    border-radius: 10px !important;
+}
+
 textarea {
     margin-left: auto;
     border: 1px solid #232323;
@@ -846,10 +855,16 @@ textarea {
     position: absolute;
 }
 
+.parallax-bg1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
 .petal-1 {
     position: absolute;
-    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center;
-    background-size: contain;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
     width: 138px;
     height: 83px;
     left: -4%;
@@ -860,8 +875,7 @@ textarea {
 
 .petal-2 {
     position: absolute;
-    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center;
-    background-size: contain;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
     width: 63px;
     height: 33px;
     left: 50%;
@@ -872,8 +886,7 @@ textarea {
 
 .petal-3 {
     position: absolute;
-    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center;
-    background-size: contain;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
     width: 65px;
     height: 39px;
     left: 84%;
@@ -884,8 +897,7 @@ textarea {
 
 .petal-4 {
     position: absolute;
-    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center;
-    background-size: contain;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
     width: 83px;
     height: 50px;
     left: 86%;
@@ -897,7 +909,7 @@ textarea {
 
 .petal-5 {
     position: absolute;
-    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/contain;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
     width: 106px;
     height: 63px;
     left: 95%;
@@ -928,6 +940,11 @@ textarea {
     position: relative;
 }
 
+.news__title {
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
 .news__wrapper {
     display: flex;
     flex-direction: column;
@@ -942,9 +959,14 @@ textarea {
     margin-bottom: 30px;
 }
 
-.news img {
+.news__img {
+    position: relative;
     width: 100%;
     border-radius: 4px;
+}
+
+.news img {
+    width: 100%;
 }
 
 .news__text {
@@ -954,6 +976,38 @@ textarea {
 .news time {
     margin-top: auto;
     color: #A9A9A9;
+}
+
+.news__overlay {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)), url(.jpg);
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    max-width: 330px;
+    opacity: 0;
+    transition: all 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.news__overlay:hover {
+    opacity: 1;
+}
+
+.news__overlay a {
+    border-bottom: 1px solid transparent;
+    transition: all 0.5s ease;
+}
+
+.news__overlay a:hover {
+    border-bottom: 1px solid #fff;
 }
 
 .pagination {
@@ -1326,7 +1380,6 @@ textarea {
     top: 35%;
     position: absolute;
 }
-
 
 /* ------ Seventh section ------ */
 

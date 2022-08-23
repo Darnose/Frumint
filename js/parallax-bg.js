@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	if ($(window).width() > 100)
+	if ($(window).width() > 0)
     { 
 		// Кешируем объект окна
 			$window = $(window);
@@ -10,14 +10,10 @@ $(document).ready(function(){
 		                    
 		      $(window).scroll(function() {
 		                    
-				// Прокручиваем фон со скоростью var.
-				// Значение yPos отрицательное, так как прокручивание осуществляется вверх!
-				var yPos = ($window.scrollTop() / $bgobj.data('speed')); 
+				var yPos = -($window.scrollTop() / $bgobj.data('speed')); 
 				
-				// Размещаем все вместе в конечной точке
 				var coords = +yPos + 'px';
 
-				// Смещаем фон
 				$bgobj.css({ top: coords });
 				
 			}); 
