@@ -139,108 +139,230 @@
                 <h4 class="admin-descr__title">
                     Reviews list
                 </h4>
-                <table>
-                    <tr>
-                        <th class="table__id-2">
-                            <p>
-                                ID
+                <ul id="list-filter">
+                    <li>
+                        <div class="filter-title__item">
+                            <p class="filter-title__text">
+                                Sort by product:
                             </p>
-                            <div class="filter">
-                                <button type="button" class="filter__btn">
-                                    <img src="img/Icons/Filter.svg">
+                        </div>
+                        <ul class="filter-product">
+                            <li class="filter-list">
+                                <button type="button" class="filter-list__btn">
+                                    All products
                                 </button>
-                            </div>
-                        </th>
-                        <th class="table__product">
-                            <p>
-                                Product
-                            </p>
-                        </th>
-                        <th class="table__rate">
-                            <p>
-                                Rate
-                            </p>
-                            <div class="filter">
-                                <button type="button" class="filter__btn">
-                                    <img src="img/Icons/Filter.svg">
+                                <button type="button" class="filter-list__btn">
+                                    Fruit mix “Double apple”
                                 </button>
-                            </div>
-                        </th>
-                        <th class="table__name-1">
-                            <p>
-                                Name
-                            </p>
-                        </th>
-                        <th class="table__mail">
-                            <p>
-                                E-mail
-                            </p>
-                        </th>
-                        <th class="table__text">
-                            <p>
-                                Review text
-                            </p>
-                        </th>
-                        <th class="table__action-2">
-                            <p>
-                                Action
-                            </p>
-                        </th>
-                    </tr>
-                    <tr>
-                        <td class="table__id-2">
-                            1
-                        </td>
-                        <td class="table__product">
-                            Fruit mix “Double apple”
-                        </td>
-                        <td class="table__rate">
-                            <div class="stars">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                            </div>
-                        </td>
-                        <td class="table__name-1">
-                            Denys Hordiuk
-                        </td>
-                        <td class="table__mail">
-                            Denys.Hordiuk@gmail.com
-                        </td>
-                        <td class="table__text">
-                            The taste is really good and deep. I could smell all notes of this amazing taste. I will definitely buy another one! 
-                        </td>
-                        <td class="table__action-2">
-                            <button type="button" class="trash">
-                                <i class="fa-regular fa-trash-can"></i>
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="table__id-2">
-                            
-                        </td>
-                        <td class="table__product">
-                           
-                        </td>
-                        <td class="table__rate">
-                            
-                        </td>
-                        <td class="table__name-1">
-                            
-                        </td>
-                        <td class="table__mail">
-
-                        </td>
-                        <td class="table__text">
-
-                        </td>
-                        <td class="table__action-2">
-                           
-                        </td>
-                    </tr>
+                                <button type="button" class="filter-list__btn">
+                                    Fruit mix “Peach”
+                                </button>
+                                <button type="button" class="filter-list__btn">
+                                    Fruit mix “Mango”
+                                </button>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>    
+                <table id="table-sort" >
+                    <thead>
+                        <tr>
+                            <th class="table__id-2 ">
+                                <p>
+                                    ID
+                                </p>
+                                <div class="filter">
+                                    <button type="button" class="filter__btn">
+                                        <img src="img/Icons/Filter.svg">
+                                    </button>
+                                </div>
+                            </th>
+                            <th class="table__product">
+                                <p>
+                                    Product
+                                </p>
+                            </th>
+                            <th class="table__rate">
+                                <p>
+                                    Rate
+                                </p>
+                                <div class="filter">
+                                    <button type="button" class="filter__btn">
+                                        <img src="img/Icons/Filter.svg">
+                                    </button>
+                                </div>
+                            </th>
+                            <th class="table__name-1">
+                                <p>
+                                    Name
+                                </p>
+                            </th>
+                            <th class="table__mail">
+                                <p>
+                                    E-mail
+                                </p>
+                            </th>
+                            <th class="table__text">
+                                <p>
+                                    Review text
+                                </p>
+                            </th>
+                            <th class="table__action-2">
+                                <p>
+                                    Action
+                                </p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='table-filters'>
+                            <td class="table__id-2"></td>
+                            <td class="table__product">
+                                <input type="text" class="input-filter">
+                            </td>
+                            <td class="table__rate"></td>
+                            <td class="table__name-1"></td>
+                            <td class="table__mail"></td>
+                            <td class="table__text"></td>
+                            <td class="table__action-2"></td>
+                        </tr>
+                        <tr class="table-data">
+                            <td class="table__id-2">
+                                1
+                            </td>
+                            <td class="table__product">
+                                Fruit mix “Double apple”
+                            </td>
+                            <td class="table__rate">
+                                <p hidden>
+                                    3
+                                </p>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </td>
+                            <td class="table__name-1">
+                                Denys Hordiuk
+                            </td>
+                            <td class="table__mail">
+                                Denys.Hordiuk@gmail.com
+                            </td>
+                            <td class="table__text">
+                                The taste is really good and deep. I could smell all notes of this amazing taste. I will definitely buy another one! 
+                            </td>
+                            <td class="table__action-2">
+                                <button type="button" class="trash">
+                                    <i class="fa-regular fa-trash-can"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr class="table-data">
+                            <td class="table__id-2">
+                                2
+                            </td>
+                            <td class="table__product">
+                                Fruit mix “Peach”
+                            </td>
+                            <td class="table__rate">
+                                <p hidden>
+                                    5
+                                </p>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </td>
+                            <td class="table__name-1">
+                                Denys Hordiuk
+                            </td>
+                            <td class="table__mail">
+                                Denys.Hordiuk@gmail.com
+                            </td>
+                            <td class="table__text">
+                                The taste is really good and deep. I could smell all notes of this amazing taste. I will definitely buy another one! 
+                            </td>
+                            <td class="table__action-2">
+                                <button type="button" class="trash">
+                                    <i class="fa-regular fa-trash-can"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr class="table-data">
+                            <td class="table__id-2">
+                                3
+                            </td>
+                            <td class="table__product">
+                                Fruit mix “Mango”
+                            </td>
+                            <td class="table__rate">
+                                <p hidden>
+                                    2
+                                </p>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </td>
+                            <td class="table__name-1">
+                                Denys Hordiuk
+                            </td>
+                            <td class="table__mail">
+                                Denys.Hordiuk@gmail.com
+                            </td>
+                            <td class="table__text">
+                                The taste is really good and deep. I could smell all notes of this amazing taste. I will definitely buy another one! 
+                            </td>
+                            <td class="table__action-2">
+                                <button type="button" class="trash">
+                                    <i class="fa-regular fa-trash-can"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr class="table-data">
+                            <td class="table__id-2">
+                                4
+                            </td>
+                            <td class="table__product">
+                                Fruit mix “Double apple”
+                            </td>
+                            <td class="table__rate">
+                                <p hidden>
+                                    5
+                                </p>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </td>
+                            <td class="table__name-1">
+                                Denys Hordiuk
+                            </td>
+                            <td class="table__mail">
+                                Denys.Hordiuk@gmail.com
+                            </td>
+                            <td class="table__text">
+                                The taste is really good and deep. I could smell all notes of this amazing taste. I will definitely buy another one! 
+                            </td>
+                            <td class="table__action-2">
+                                <button type="button" class="trash">
+                                    <i class="fa-regular fa-trash-can"></i>
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
         </div>
@@ -251,6 +373,7 @@
    <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js" type="text/javascript"></script>
    <script src="js/jquery.arcticmodal-0.3.min.js"></script>
    <script src="js/jquery.simplePagination.js"></script>
+   <script src="js/jquery.tablesorter.js"></script>
    <!-- <script src="js/parallax-bg.js"></script> -->
    <script async src="https://kit.fontawesome.com/b882084224.js" crossorigin="anonymous"></script>
    <script src="js/main.js"></script>

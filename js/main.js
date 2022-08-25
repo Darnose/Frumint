@@ -13,12 +13,44 @@ $(function () {
         $('#exampleModal').arcticmodal();
     });
 
-    function parallaxScroll(){
-        var scrolled = $(window).scrollTop();
-        $('.parallax-bg1').css('top',(0-(scrolled*.25))+'px');
-        $('.parallax-bg2').css('top',(0-(scrolled*.5))+'px');
-        $('.parallax-bg3').css('top',(0-(scrolled*.75))+'px');
-       }
+    $(document).ready(function() { 
+        $("#table-sort").tablesorter();
+    }); 
+
+    $('.table-filters input').on('input', function () {
+        filterTable($(this).parents('table'));
+    });
+    
+    function filterTable($table) {
+        var $filters = $table.find('.table-filters td');
+        var $rows = $table.find('.table-data');
+        $rows.each(function (rowIndex) {
+            var valid = true;
+            $(this).find('td').each(function (colIndex) {
+                if ($filters.eq(colIndex).find('input').val()) {
+                    if ($(this).html().toLowerCase().indexOf(
+                    $filters.eq(colIndex).find('input').val().toLowerCase()) == -1) {
+                        valid = valid && false;
+                    }
+                }
+            });
+            if (valid === true) {
+                $(this).css('display', '');
+            } else {
+                $(this).css('display', 'none');
+            }
+        });
+    }
+
+    $(document).ready(function () {
+        $('.filter-list__btn').click(function () {
+            var input = document.querySelector('.input-filter');
+           console.log(input.value = $(this).text().trim()); 
+            if (input.value == 'All products') {
+                input.value = ''
+            }
+        });
+    });
 
     $(document).ready(function () {
         $('#list > li').click(function () {
@@ -27,16 +59,16 @@ $(function () {
         });
         $('ul').click(function (event) {
             event.stopPropagation();
-            sessionStorage.getItem($(this));
         });
     });
 
-    $('.slider').slick({
-        dots: false,
-        infinite: true,
-        autoplay: false,
-        prevArrow: false,
-        nextArrow: false,
+    $(document).ready(function () {
+        $('#list-filter > li').click(function () {
+            $(this).toggleClass('active');
+            $(this).children("ul").slideToggle();
+        });
+        $('.filter-product').click(function () {
+            $(this).slideToggle();
+        });
     });
-
 });

@@ -66,23 +66,23 @@
    .petal-1 {
         width: 98px;
         height: 63px;
-        left: -4%;
-        top: 5%;
+        left: -4vw;
+        top: 21vh;
         transform: rotate(30deg);
    }
    .petal-2 {
-        left: 50%;
-        top: 5%;
+        left: 50vw;
+        top: 22vh;
    }
    .petal-7 {
         width: 98px;
         height: 63px;
    }
    .petal-14 {
-        left: 40%;
+        left: 40vw;
    }
    .petal-15 {
-        left: 58%;
+        left: 58vw;
    }
 }
 /* 767-991px */
@@ -154,6 +154,9 @@
     .ingridients {
         width: 415px;
         text-align: center;
+    }
+    .petal-7 {
+        left: 0vw;
     }
     .petal-14 {
         left: 38%;
@@ -261,6 +264,10 @@
     .news time {
         font-size: 14px;
     }
+    .petal-13 {
+        width: 90px;
+        height: 60px;
+    }
     .petal-14 {
         left: 36%;
    }
@@ -352,20 +359,20 @@
         height: 30px;
     }
     .petal-5 {
-        left: 92%;
+        left: 92vw;
     }
     .petal-7 {
         width: 60px;
         height: 40px;
-        left: 0%;
+        left: 0vw;
     }
     .petal-8 {
         width: 50px;
         height: 30px;
-        left: 92%;
+        left: 92vw;
     }
     .petal-12 {
-        left: 90%;
+        left: 90vw;
     }
     .petal-13 {
         width: 60px;

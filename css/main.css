@@ -204,7 +204,7 @@ table {
 
 /* ------ First section ------ */
 
-.header {
+#header {
     padding: 40px 0 0;
     position: relative;
 }
@@ -510,6 +510,42 @@ li.active .menu-admin__text {
     background: #fff;
     color: #F04563;
     border: 2px solid #F04563;
+}
+
+#list-filter {
+    position: relative;
+    z-index: 20;
+    width: 270px;
+    user-select: none;
+}
+
+.filter-product {
+    position: absolute;
+    display: none;
+}
+
+.filter-list {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border: 1px solid #000;
+    border-bottom: 1px solid transparent;
+    width: 270px;
+}
+
+.filter-list__btn {
+    border: none;
+    border-bottom: 1px solid #000;
+    padding: 10px 12px;
+    background: transparent;
+}
+
+.filter-title__text {
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .table__id-1 {
@@ -860,6 +896,7 @@ textarea {
     top: 0;
     left: 0;
     width: 100vw;
+    z-index: 20;
 }
 
 .petal-1 {
@@ -867,8 +904,8 @@ textarea {
     background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
     width: 138px;
     height: 83px;
-    left: -4%;
-    top: 17%;
+    left: -4vw;
+    top: 21vh;
     filter: blur(4px);
     transform: rotate(-30deg);
 }
@@ -878,8 +915,8 @@ textarea {
     background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
     width: 63px;
     height: 33px;
-    left: 50%;
-    top: 15%;
+    left: 48vw;
+    top: 19vh;
     filter: blur(2px);
     transform: rotate(30deg);
 }
@@ -889,8 +926,8 @@ textarea {
     background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
     width: 65px;
     height: 39px;
-    left: 84%;
-    top: 6%;
+    left: 88vw;
+    top: 10vh;
     filter: blur(2px);
     transform: rotate(-45deg);
 }
@@ -900,11 +937,10 @@ textarea {
     background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
     width: 83px;
     height: 50px;
-    left: 86%;
-    top: 29%;
+    left: 89vw;
+    top: 33vh;
     filter: blur(2px);
     transform: rotate(150deg);
-    z-index: 20;
 }
 
 .petal-5 {
@@ -912,8 +948,8 @@ textarea {
     background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
     width: 106px;
     height: 63px;
-    left: 95%;
-    top: 67%;
+    left: 95vw;
+    top: 71vh;
     filter: blur(3px);
     transform: rotate(-150deg);
 }
@@ -923,8 +959,8 @@ textarea {
     background: url(../img/Photos/Mint\ leaf\ side.png) no-repeat center center/contain;
     width: 75px;
     height: 28px;
-    left: 38%;
-    top: 56%;
+    left: 38vw;
+    top: 60vh;
     filter: blur(4px);
     transform: rotate(-25deg);
 }
@@ -1133,8 +1169,8 @@ textarea {
     background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/contain;
     width: 138px;
     height: 83px;
-    left: 11%;
-    top: 13%;
+    left: 11vw;
+    top: 130vh;
     filter: blur(4px);
     transform: rotate(-30deg);
 }
@@ -1144,8 +1180,8 @@ textarea {
     background: url(../img/Photos/Mint\ leaf\ side.png) no-repeat center center/contain;
     width: 96px;
     height: 35px;
-    left: 87%;
-    top: 32%;
+    left: 87vw;
+    top: 145vh;
     filter: blur(4px);
     transform: rotate(25deg);
 }
@@ -1212,8 +1248,8 @@ textarea {
     background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/contain;
     width: 94px;
     height: 57px;
-    left: 0%;
-    top: -7%;
+    left: 0vw;
+    top: 190vh;
     filter: blur(4px);
     transform: rotate(-150deg);
 }
@@ -1223,8 +1259,8 @@ textarea {
     background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/contain;
     width: 148px;
     height: 89px;
-    left: 95%;
-    top: 20%;
+    left: 95vw;
+    top: 210vh;
     filter: blur(4px);
     transform: rotate(30deg);
 }
@@ -1234,8 +1270,8 @@ textarea {
     background: url(../img/Photos/Mint\ leaf\ side.png) no-repeat center center/contain;
     width: 96px;
     height: 35px;
-    left: -3%;
-    top: 38%;
+    left: -3vw;
+    top: 235vh;
     filter: blur(4px);
     transform: rotate(-25deg);
 }
@@ -1345,22 +1381,22 @@ textarea {
 
 .petal-12 {
     position: absolute;
-    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/contain;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
     width: 87px;
     height: 52px;
-    left: 94%;
-    top: 6%;
+    left: 94vw;
+    top: 265vh;
     filter: blur(3px);
     transform: rotate(45deg);
 }
 
 .petal-13 {
     position: absolute;
-    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/contain;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/cover;
     width: 131px;
     height: 79px;
-    left: -4%;
-    top: 74%;
+    left: -4vw;
+    top: 310vh;
     filter: blur(4px);
     transform: rotate(-30deg);
 }
