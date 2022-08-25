@@ -140,28 +140,16 @@
                     Reviews list
                 </h4>
                 <ul id="list-filter">
-                    <li>
-                        <div class="filter-title__item">
-                            <p class="filter-title__text">
-                                Sort by product:
-                            </p>
-                        </div>
-                        <ul class="filter-product">
-                            <li class="filter-list">
-                                <button type="button" class="filter-list__btn">
-                                    All products
-                                </button>
-                                <button type="button" class="filter-list__btn">
-                                    Fruit mix “Double apple”
-                                </button>
-                                <button type="button" class="filter-list__btn">
-                                    Fruit mix “Peach”
-                                </button>
-                                <button type="button" class="filter-list__btn">
-                                    Fruit mix “Mango”
-                                </button>
-                            </li>
-                        </ul>
+                    <li class="list-item">
+                        <select id="select">
+                            <option value="">All products</option>
+                            <option value="Fruit mix “Double apple”">Fruit mix “Double apple”</option>
+                            <option value="Fruit mix “Peach”">Fruit mix “Peach”</option>
+                            <option value="Fruit mix “Mango”">Fruit mix “Mango”</option>
+                        </select>
+                        <button type="submit" class="confirm__btn">
+                            Confirm
+                        </button>
                     </li>
                 </ul>    
                 <table id="table-sort" >
@@ -215,17 +203,6 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class='table-filters'>
-                            <td class="table__id-2"></td>
-                            <td class="table__product">
-                                <input type="text" class="input-filter">
-                            </td>
-                            <td class="table__rate"></td>
-                            <td class="table__name-1"></td>
-                            <td class="table__mail"></td>
-                            <td class="table__text"></td>
-                            <td class="table__action-2"></td>
-                        </tr>
                         <tr class="table-data">
                             <td class="table__id-2">
                                 1
