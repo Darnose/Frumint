@@ -18,16 +18,6 @@ $(function () {
     }); 
 
     $(document).ready(function () {
-        $('.filter-list__btn').click(function () {
-            var input = document.querySelector('.input-filter');
-           console.log(input.value = $(this).text().trim()); 
-            if (input.value == 'All products') {
-                input.value = ''
-            }
-        });
-    });
-
-    $(document).ready(function () {
         $('#list > li').click(function () {
             $(this).toggleClass('active');
             $(this).children("ul").slideToggle();
@@ -37,13 +27,12 @@ $(function () {
         });
     });
 
-    $(document).ready(function () {
-        $('#list-filter > li').click(function () {
-            $(this).toggleClass('active');
-            $(this).children("ul").slideToggle();
-        });
-        $('.filter-product').click(function () {
-            $(this).slideToggle();
+    $(function() {
+        $('.pagination').pagination({
+            items: 100,
+            itemsOnPage: 9,
+            cssStyle: 'light-theme'
         });
     });
+
 });

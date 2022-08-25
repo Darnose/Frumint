@@ -675,6 +675,10 @@ textarea {
     margin-top: 40px;
 }
 
+.news-image__input {
+    margin: 0 0 0 auto;
+}
+
 .toggle {
     display: flex;
     flex-direction: row;
@@ -940,23 +944,23 @@ textarea {
     transform: rotate(-25deg);
 }
 
-.news {
+.news-list {
     padding: 94px 0 120px;
 }
 
-.news h1 {
+.news-list h1 {
     color: #6E9B63;
     text-align: center;
     margin-bottom: 64px;
     position: relative;
 }
 
-.news__title {
+.news-list__title {
     margin-top: 20px;
     margin-bottom: 12px;
 }
 
-.news__wrapper {
+.news-list__wrapper {
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -970,26 +974,26 @@ textarea {
     margin-bottom: 30px;
 }
 
-.news__img {
+.news-list__img {
     position: relative;
     width: 100%;
     border-radius: 4px;
 }
 
-.news img {
+.news-list img {
     width: 100%;
 }
 
-.news__text {
+.news-list__text {
     color: #424242;
 }
 
-.news time {
+.news-list time {
     margin-top: auto;
     color: #A9A9A9;
 }
 
-.news__overlay {
+.news-list__overlay {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)), url(.jpg);
     border-radius: 4px;
     position: absolute;
@@ -1008,21 +1012,26 @@ textarea {
     color: #fff;
 }
 
-.news__overlay:hover {
+.news-list__overlay:hover {
     opacity: 1;
 }
 
-.news__overlay a {
+.news-list__overlay a {
     border-bottom: 1px solid transparent;
     transition: all 0.5s ease;
 }
 
-.news__overlay a:hover {
+.news-list__overlay a:hover {
     border-bottom: 1px solid #fff;
 }
 
 .pagination {
+    display: flex;
+    justify-content: flex-end;
     margin-top: 4px;
+    user-select: none;
+    height: 40px;
+
 }
 
 .pagination__page {
@@ -1060,6 +1069,63 @@ textarea {
     filter: blur(1px);
     transform: rotate(30deg);
 }
+
+.news {
+    padding: 100px 0 161px;
+    
+}
+
+.news__img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.news__title {
+    color: #232323;
+}
+
+.box {
+    max-width: 770px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news__text{
+    margin-top: 32px;
+}
+
+.spares__title {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.spares__title::before {
+    display: block;
+    content: '';
+    height: 5px;
+    width: 5px;
+    background: #232323;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.spares__text {
+    margin-top: 14px;
+}
+
+.news__date {
+    margin-top: 106px;
+}
+
+.news span {
+    font-weight: 600;
+    color: #141414;
+}
+
 /* ------ Third section ------ */
 
 .dignity {
