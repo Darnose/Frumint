@@ -1126,6 +1126,37 @@ textarea {
     color: #141414;
 }
 
+.production {
+    padding-top: 136px;
+}
+
+.picture img {
+    width: 100%;
+}
+
+.choose {
+    margin-top: 4px;
+}
+
+.choose__picture {
+    display: block;
+    width: 70px;
+    height: 94px;
+    background: #D9D9D9;
+    margin-bottom: 17px;
+}
+
+.product__title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #6E9B63;
+}
+
+.product-stars {
+    font-size: 20px;
+    color: #6E9B63;
+}
+
 /* ------ Third section ------ */
 
 .dignity {

@@ -37,12 +37,4 @@ $(function () {
         });
     });
 
-    $(function() {
-        $('.pagination').pagination({
-            items: 100,
-            itemsOnPage: 9,
-            cssStyle: 'light-theme'
-        });
-    });
-
 });
