@@ -443,4 +443,7 @@
    .news-list__img {
         height: 178px;
     }
+    .pagination {
+        justify-content: center;
+    }
 }

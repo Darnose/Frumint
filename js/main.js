@@ -13,9 +13,7 @@ $(function () {
         $('#exampleModal').arcticmodal();
     });
 
-    $(document).ready(function() { 
-        $("#table-sort").tablesorter();
-    }); 
+    
 
     $(document).ready(function () {
         $('#list > li').click(function () {
