@@ -8,12 +8,13 @@ $(function () {
         $('.overlay').toggleClass('fone');
     });
    
-    $('.parallax-btn').click(function (e) {
+    $('a.go').click(function (e) {
         e.preventDefault();
-        $('#exampleModal').arcticmodal();
+        elementClick = $(this).attr('href');
+        destination = $(elementClick).offset().top;
+        $('body,html').animate({scrollTop: destination }, 1200);
+        return false;
     });
-
-    
 
     $(document).ready(function () {
         $('#list > li').click(function () {
@@ -33,6 +34,14 @@ $(function () {
             }
             reader.readAsDataURL(e.target.files['0']);
         });
+    });
+
+    $('.slider').slick({
+        dots: true,
+        infinite: true,
+        autoplay: true,
+        prevArrow: false,
+        nextArrow: false,
     });
 
 });
