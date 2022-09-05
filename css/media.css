@@ -336,10 +336,8 @@
         padding-top: 100px;
         padding-bottom: 100px;
     }
-    .review-form {
-        padding-bottom: 90px;
-    }
     .review-list {
+        padding-bottom: 90px;
         padding-bottom: 90px;
     }
 }
@@ -493,8 +491,6 @@
     .picture {
         margin-left: auto;
         margin-right: auto;
-        max-width: 285px;
-        max-height: 405px;
     }
     .picture img {
         max-width: 285px;
@@ -503,21 +499,24 @@
     .product__descr p {
         width: 60%;
     }
-    .choose {
-        margin-left: 7px;
-    }
     .choose__picture {
-        width: 50px;
-        height: 70px;
+        width: 40px;
+        height: 55px;
     }
     .cover {
         padding-top: 70px;
         padding-bottom: 70px;
     }
-    .review-form {
-        padding-bottom: 70px;
+    .slider__dots {
+        margin: 2px;
     }
     .review-list {
         padding-bottom: 70px;
+        padding-bottom: 70px;
+    }
+    .slider__item {
+        margin-left: 20px;
+        max-width: 230px;
+        max-height: 325px;
     }
 }
