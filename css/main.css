@@ -895,7 +895,7 @@ textarea {
     top: 0;
     left: 0;
     width: 100vw;
-    z-index: 20;
+    z-index: -1;
 }
 
 .petal-1 {
@@ -1428,6 +1428,50 @@ textarea {
 
 .review-list__more:hover {
     border-bottom: 1px solid #6E9B63;
+}
+
+.petal-16 {
+    position: absolute;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/contain;
+    width: 76px;
+    height: 46px;
+    left: 1vw;
+    top: 18vh;
+    filter: blur(2px);
+    transform: rotate(-45deg);
+}
+
+.petal-17 {
+    position: absolute;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/contain;
+    width: 63px;
+    height: 33px;
+    left: 92vw;
+    top: 20vh;
+    filter: blur(2px);
+    transform: rotate(20deg);
+}
+
+.petal-18 {
+    position: absolute;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/contain;
+    width: 83px;
+    height: 50px;
+    left: 97vw;
+    top: 38vh;
+    filter: blur(1px);
+    transform: rotate(135deg);
+}
+
+.petal-19 {
+    position: absolute;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/contain;
+    width: 67px;
+    height: 40px;
+    left: -2vw;
+    top: 91vh;
+    filter: blur(1px);
+    transform: rotate(30deg);
 }
 
 /* ------ Third section ------ */

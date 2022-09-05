@@ -177,9 +177,6 @@
    .petal-15 {
         left: 60%;
    }
-   .parallax-bg1 {
-        z-index: -1;
-   }
    .news-list__img {
         height: 195px;
    }
@@ -518,5 +515,20 @@
         margin-left: 20px;
         max-width: 230px;
         max-height: 325px;
+    }
+    .petal-16 {
+        left: -7vw;
+        width: 56px;
+        height: 30px;
+    }
+    .petal-18 {
+        width: 63px;
+        height: 40px;
+        left: 94vw;
+    }
+    .petal-19 {
+        width: 57px;
+        height: 30px;
+        left: -6vw;
     }
 }
