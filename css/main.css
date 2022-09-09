@@ -1103,7 +1103,6 @@ textarea {
 
 .news {
     padding: 100px 0 161px;
-    
 }
 
 .news__img {
@@ -1477,6 +1476,67 @@ textarea {
     transform: rotate(30deg);
 }
 
+.petal-20 {
+    position: absolute;
+    background: url(../img/Photos/Mint\ leaf.png) no-repeat center center/contain;
+    width: 67px;
+    height: 40px;
+    left: -2vw;
+    top: 61vh;
+    filter: blur(1px);
+    transform: rotate(30deg);
+}
+
+.contacts {
+    padding: 200px 0 218px;
+}
+
+.contacts__title {
+    color: #6E9B63;
+    margin-bottom: 32px;
+}
+
+.contacts__text {
+    max-width: 400px;
+}
+
+.message-text {
+    margin-top: 20px;
+}
+
+#contacts-area {
+    margin-top: 0;
+}
+
+.details {
+    padding: 120px 0;
+}
+
+.details .picture {
+    margin-top: 32px;
+    margin-bottom: 90px;
+}
+
+.details .picture img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.details__title {
+    margin-bottom: 24px;
+    color: #6E9B63;
+}
+
+.details__title:not(:first-child) {
+    margin-top: 52px;
+}
+
+.details p {
+    margin-bottom: 30px;
+    color:#000;
+}
+
 /* ------ Third section ------ */
 
 .dignity {
@@ -1824,6 +1884,10 @@ textarea {
     font-weight: 400;
     line-height: 21px;
     font-size: 14px;
+}
+
+.logo-footer {
+    display: flex;
 }
 
 .menu-footer__item {
