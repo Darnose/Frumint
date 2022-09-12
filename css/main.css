@@ -1084,7 +1084,7 @@ textarea {
     width: 45px;
     height: 30px;
     left: 42%;
-    top: 16%;
+    top: 150px;
     filter: blur(2px);
     transform: rotate(-40deg);
     
@@ -1096,7 +1096,7 @@ textarea {
     width: 35px;
     height: 25px;
     left: 56%;
-    top: 20%;
+    top: 185px;
     filter: blur(1px);
     transform: rotate(30deg);
 }
