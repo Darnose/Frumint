@@ -36,6 +36,12 @@ $(function () {
         });
     });
 
+    $(document).ready(function () {
+        $('.product-list__wrapper').hover(function () {
+            $(this).children(".hint-button").toggleClass('d-none');
+        });
+    });
+
     // $(document).ready(function() {
     //     $(".slider").each(function () { // обрабатываем каждый слайдер
     //      var obj = $(this);

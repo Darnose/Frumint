@@ -1537,6 +1537,63 @@ textarea {
     color:#000;
 }
 
+.product-list {
+    padding: 100px 0;
+}
+
+.product-list h1 {
+    text-align: center;
+    color: #6E9B63;
+    margin-bottom: 60px;
+}
+
+.product-list__wrapper {
+    padding: 28px 27px 20px 28px;
+}
+
+.product-list__img {
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25)) drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 207px;
+    height: 271px;
+}
+
+.product-list__img img {
+    width: 100%;
+    height: 100%;
+}
+
+.product-list__text {
+    margin-top: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.product-list .trade {
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.product-stars-small {
+    font-size: 12px;
+    color:#6E9B63;
+    margin-left: 12px;
+}
+
+.hint-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 40px;
+    background: #6E9B63;
+    border-radius: 21px;
+    width: 158px;
+    height: 38px;
+    font-size: 14px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* ------ Third section ------ */
 
 .dignity {
