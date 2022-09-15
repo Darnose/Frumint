@@ -727,6 +727,19 @@ textarea {
     transition: all 0.3s ease;
 }
 
+.link-product {
+    object-fit: cover;
+    margin-top: 20px;
+    width: 207px;
+    height: 271px;
+    border: 1px solid #8C8C8C;
+    border-radius: 4px;
+    font-size: 35px;
+    color: #8C8C8C;
+    margin-left: 242px;
+    transition: all 0.3s ease;
+}
+
 .preview-image {
     display: flex;
 }
@@ -735,14 +748,14 @@ textarea {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 60px;
+    margin-left: 60px;  
 }
 
 .checkbox label {
     margin-left: 10px;
 }
 
-#removePhoto {
+.removePhoto {
     width: 30px;
     height: 30px;
 }
@@ -1169,7 +1182,6 @@ textarea {
 
 .picture img {
     width: 100%;
-    height: 100%;
     margin-left: auto;
 }
 
