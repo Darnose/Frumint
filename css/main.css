@@ -244,8 +244,6 @@ table {
 .burger {
     height: 42px;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .burger__btn {
@@ -253,7 +251,9 @@ table {
     background: transparent;
     border: none;
     padding: 0;
-    height: 12px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
     position: relative;
     align-items:center
 }

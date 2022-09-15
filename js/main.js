@@ -1,5 +1,5 @@
 $(function () {
-    $('.burger__btn').click (function () {
+    $('.burger').click (function () {
         $('.burger__btn').toggleClass('cross');
         $('.menu-collapse').toggleClass('drive').css('order', '1' );
         $('.menu').toggleClass('menu-opened');
