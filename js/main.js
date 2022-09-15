@@ -1,7 +1,7 @@
 $(function () {
     $('.burger__btn').click (function () {
         $('.burger__btn').toggleClass('cross');
-        $('.menu-collapse').toggleClass('d-none').css('order', '1' );
+        $('.menu-collapse').toggleClass('drive').css('order', '1' );
         $('.menu').toggleClass('menu-opened');
         $('body').toggleClass('lock');
         $('html').toggleClass('lock');
@@ -38,7 +38,7 @@ $(function () {
 
     $(document).ready(function () {
         $('.product-list__wrapper').hover(function () {
-            $(this).children(".hint-button").toggleClass('d-none');
+            $(this).children(".hint-button").toggleClass('pull');
         });
     });
 

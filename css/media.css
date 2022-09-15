@@ -106,9 +106,15 @@
         padding-top: 89px;
         padding-bottom: 140px;
     }
+    .menu-collapse {
+        position: absolute;
+        top:0;
+        right: 100%;
+        transition: all 1s ease;
+        height: 0vh;
+    }
     .menu.menu-opened {
         left: 60%;
-        width: 40%;
     }
     .menu__item:not(:last-child) {
         margin-right: 0;
