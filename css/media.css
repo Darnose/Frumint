@@ -227,6 +227,9 @@
     .contacts {
         padding: 150px 0 138px;
     }
+    .error-404 {
+        padding: 120px 0 140px;
+    }
 }
 
 /* 575-767px */
@@ -379,6 +382,14 @@
     }
     .contacts {
         padding: 100px 0 96px;
+    }
+    .big-inscription {
+        font-size: 200px;
+        line-height: 250px;
+    }
+    .big-inscription img {
+        width: 200px;
+        height: 140px;
     }
 }
 
@@ -591,5 +602,16 @@
     }
     .contacts {
         padding: 72px 0 96px;
+    }
+    .big-inscription {
+        font-size: 110px;
+        line-height: 170px;
+    }
+    .big-inscription img {
+        width: 130px;
+        height: 90px;
+    }
+    .error-404 {
+        padding: 100px 0 120px;
     }
 }
