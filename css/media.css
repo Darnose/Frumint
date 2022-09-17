@@ -625,4 +625,7 @@
     .error-404 {
         padding: 100px 0 120px;
     }
+    .product-list h1 {
+        margin-bottom: 30px;
+    }
 }
