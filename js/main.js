@@ -42,43 +42,19 @@ $(function () {
         });
     });
 
-    $(document).ready(function () {
-        $('.choose__picture').click(function () {
-            $(this).toggleClass('choose');
-        });
+    $('.slider__item').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: true,
+      asNavFor: '.slider__dots'
     });
-
-    $gl.slick({
-        rows: 0,
-        slidesToShow: 2,
-        arrows: false,
-        draggable: false,
-        useTransform: false,
-        mobileFirst: true,
-        responsive: [
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 3
-            }
-          },
-          {
-            breakpoint: 1023,
-            settings: {
-              slidesToShow: 1,
-              vertical: true
-            }
-          }
-        ]
-      });
-       
-      $gl2.slick({
-        rows: 0,
-        useTransform: false,
-        prevArrow: ".arrow-left",
-        nextArrow: ".arrow-right",
-        fade: true,
-        asNavFor: $gl
-      });
-
+    $('.slider__dots').slick({
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      asNavFor: '.slider__item',
+      dots: false,
+      focusOnSelect: true,
+      vertical: true
+    });
 });
