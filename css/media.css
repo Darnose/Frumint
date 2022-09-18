@@ -41,9 +41,6 @@
         margin-left: auto;
         margin-right: auto;
    }
-   .menu-opened .menu__item {
-        margin-left: 100px;
-    }
    .ingridients {
         display: flex;
         justify-content: center;
@@ -109,9 +106,35 @@
     .menu-collapse {
         position: absolute;
         top:0;
-        right: 100%;
-        transition: all 1s ease;
-        height: 0vh;
+        left: 0%;
+    }
+    .menu {
+        position: absolute;
+        top: -0%;
+        left: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items:flex-start;
+        padding: 135px 0 0;
+        transition: all 0.7s ease;
+        height: 100vh;
+        width: 70%;
+        z-index: 100;
+        margin: 0;
+        color: #F5F5F5;
+        opacity: 0;
+    }
+    .menu__item_language {
+        margin-top: 40px;
+    }
+    .language__text {
+        color: #F5F5F5;
+    }
+    .active {
+        color: #F5F5F5;
+    }
+    #list {
+        margin-left: 70px;
     }
     .menu.menu-opened {
         left: 60%;
@@ -153,7 +176,7 @@
    .usage {
         margin-top: 25px;
    }
-   .menu-opened .menu__item {
+   .menu__item {
         margin-left: 70px;
     }
    .How-to-use {
@@ -318,9 +341,6 @@
     .ingridients {
         margin-top: 0;
     }
-    .menu-opened .menu__item {
-        margin-left: 50px;
-    }
     .compound {
         padding-top: 30px;
         padding-bottom: 120px;
@@ -409,6 +429,12 @@
     }
     h4 {
         font-size: 18px;
+    }
+    #list {
+        margin-left: 50px;
+    }
+    .menu__item {
+        margin-left: 50px;
     }
     .menu.menu-opened {
         left: 30%;
