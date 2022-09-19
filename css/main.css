@@ -1110,7 +1110,7 @@ textarea {
     width: 45px;
     height: 30px;
     left: 42%;
-    top: 150px;
+    top: 160px;
     filter: blur(2px);
     transform: rotate(-40deg);
     
@@ -1122,9 +1122,17 @@ textarea {
     width: 35px;
     height: 25px;
     left: 56%;
-    top: 185px;
+    top: 195px;
     filter: blur(1px);
     transform: rotate(30deg);
+}
+
+.product-list .petal-14 {
+    left: 31%;
+}
+
+.product-list .petal-15 {
+    left: 68%;
 }
 
 .news {

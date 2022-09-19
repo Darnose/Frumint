@@ -9,6 +9,12 @@
         width: 96%;
         padding: 72px 90px 108px;
    }
+   .product-list .petal-14 {
+    left: 28%;
+    }
+    .product-list .petal-15 {
+    left: 71%;
+    }
 }
 /* 991-1199px */
 @media screen and (max-width: 1199px) {
@@ -80,6 +86,12 @@
    .petal-15 {
         left: 58vw;
    }
+   .product-list .petal-14 {
+    left: 23%;
+    }
+    .product-list .petal-15 {
+    left: 75%;
+    }
    .product__descr {
         width: 100%;
    }
@@ -206,6 +218,12 @@
    .petal-15 {
         left: 60%;
    }
+   .product-list .petal-14 {
+    left: 20%;
+    }
+    .product-list .petal-15 {
+    left: 78%;
+    }
    .news-list__img {
         height: 195px;
    }
@@ -374,6 +392,12 @@
    .petal-15 {
         left: 62%;
    }
+   .product-list .petal-14 {
+    left: 14%;
+    }
+    .product-list .petal-15 {
+    left: 83%;
+    }
    .news-list__img {
         height: 135px;
     }
