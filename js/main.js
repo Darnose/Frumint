@@ -58,4 +58,24 @@ $(function () {
       focusOnSelect: true,
       vertical: true
     });
+
+    $(document).ready(function() {
+        var list = $(".review-list__item");
+        var numToShow = 6; 
+        var button = $(".review-list__more");
+        var numInList = list.length;
+        list.hide();
+        if (numInList > numToShow) {
+          button.show();
+        }
+        list.slice(0, numToShow).show();
+        button.click(function() {
+          var showing = list.filter(':visible').length;
+          list.slice(showing - 1, showing + numToShow).fadeIn(600);
+          var nowShowing = list.filter(':visible').length;
+          if (nowShowing >= numInList) {
+            button.hide();
+          }
+        });
+      });
 });

@@ -123,7 +123,6 @@ table {
     color: #6E9B63;
 }
 
-
 .big-green {
     height: 52px;
     width: 32px;
@@ -1477,9 +1476,13 @@ textarea {
 }
 
 .review-list__more {
+    display: block;
     width: 155px;
+    padding: 0;
     color: #6E9B63;
     margin-top: 60px;
+    border: none;
+    background: transparent;
     margin-left: auto;
     margin-right: auto;
     text-decoration: solid;
