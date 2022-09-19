@@ -808,59 +808,6 @@ textarea {
     cursor: pointer;
 }
 
-.message {
-    padding: 28px 0 107px;
-}
-.message .logo img {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.message__descr span {
-    display: flex;
-    justify-content: flex-end;
-    width: 120px;
-    font-size: 14px;
-}
-
-.message__text {
-    font-size: 14px;
-    width: 375px;
-    margin-left: 19px;
-}
-
-.message__wrap {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.message__descr {
-    display: flex;
-}
-
-.message__descr:not(:last-child) {
-    margin-bottom: 12px;
-}
-
-.message__descr:last-child {
-    margin-top: 52px;
-}
-
-.message__area {
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.message__title {
-    margin-top: 56px;
-    margin-bottom: 52px;
-    color: #6E9B63;
-    text-align: center;
-}
-
 /* ------ Second section ------ */
 
 .content {
@@ -1253,6 +1200,7 @@ textarea {
 
 .slider__dots .slick-track {
     width: 86px;
+    transform: translate3d(0px, 0px, 0px)!important;
 }
 
 .cover {
@@ -1400,6 +1348,7 @@ textarea {
 
 .rate__text {
     margin-right: 12px;
+    font-size: 16px!important;
 }
 
 .rating-area {

@@ -47,13 +47,14 @@ $(function () {
       slidesToScroll: 1,
       arrows: false,
       fade: true,
+      waitForAnimate: false,
       asNavFor: '.slider__dots'
     });
     $('.slider__dots').slick({
       slidesToShow: 5,
-      slidesToScroll: 1,
       asNavFor: '.slider__item',
       dots: false,
+      waitForAnimate: false,
       focusOnSelect: true,
       vertical: true
     });

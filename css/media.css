@@ -412,9 +412,6 @@
         width: 200px;
         height: 140px;
     }
-    .message__text {
-        width: 100%;
-    }
 }
 
 /* 320-575px */
@@ -657,10 +654,5 @@
     .product-list h1 {
         margin-bottom: 30px;
     }
-    .message__area {
-        max-width: 400px;
-    }
-    .message__wrap {
-        width: 100%;
-    }
+    
 }
