@@ -828,8 +828,10 @@ textarea {
 
 .description__btn {
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: 600;
-    padding: 12px, 60px;
     height: 50px;
     width: 240px;
     border-radius: 38px;
@@ -1113,7 +1115,6 @@ textarea {
     top: 160px;
     filter: blur(2px);
     transform: rotate(-40deg);
-    
 }
 
 .petal-15 {
