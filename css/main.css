@@ -408,6 +408,8 @@ table {
 }
 
 .menu-list__text {
+    cursor: pointer;
+    margin-left: 33px;
     margin-bottom: 8px;
 }
 
@@ -430,11 +432,6 @@ li.active .menu-admin__text {
 
 .active {
     color: #527549;
-}
-
-.menu-list__text {
-    cursor: pointer;
-    margin-left: 45px;
 }
 
 .menu-list__text:hover {
@@ -487,6 +484,12 @@ li.active .menu-admin__text {
     background: transparent;
 }
 
+.buttons-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items:center
+}
+
 .trash {
     background: #F04563;
     border-radius: 4px;
@@ -501,14 +504,25 @@ li.active .menu-admin__text {
     transition: all 0.5s ease;
 }
 
-.stars {
-    font-size: 12px;
-}
-
 .trash:hover {
     background: #fff;
     color: #F04563;
     border: 2px solid #F04563;
+}
+
+.check {
+    background: #6E9B63;
+    margin-bottom: 10px;
+}
+
+.check:hover {
+    background: #fff;
+    color: #6E9B63;
+    border: 2px solid #6E9B63;
+}
+
+.stars {
+    font-size: 12px;
 }
 
 .list-item {
@@ -540,6 +554,10 @@ li.active .menu-admin__text {
     width: 60px;
 }
 
+#table__product {
+    border-left: transparent;
+}
+
 .table__product {
     width: 136px;
 }
@@ -550,7 +568,11 @@ li.active .menu-admin__text {
 }
 
 .table__name-1 {
-    width: 148px;
+    width: 138px;
+}
+
+.table__date {
+    width: 100px;
 }
 
 .table__name-2 {
@@ -559,7 +581,8 @@ li.active .menu-admin__text {
 }
 
 .table__mail {
-    width: 257px;
+    width: 215px;
+    word-wrap: break-word;
 }
 
 .table__msg {
@@ -567,7 +590,7 @@ li.active .menu-admin__text {
 }
 
 .table__text {
-    width: 232px;
+    width: 222px;
 }
 
 .table__compound {

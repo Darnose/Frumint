@@ -142,35 +142,12 @@
         <div class="admin-descr">
             <div class="admin-descr__main">
                 <h4 class="admin-descr__title">
-                    Reviews list
+                    Reviews moderation
                 </h4>
-                <ul id="list-filter">
-                    <li class="list-item">
-                        <select id="select">
-                            <option value="">All products</option>
-                            <option value="Fruit mix “Double apple”">Fruit mix “Double apple”</option>
-                            <option value="Fruit mix “Peach”">Fruit mix “Peach”</option>
-                            <option value="Fruit mix “Mango”">Fruit mix “Mango”</option>
-                        </select>
-                        <button type="submit" class="confirm__btn">
-                            Confirm
-                        </button>
-                    </li>
-                </ul>    
                 <table id="table-sort">
                     <thead>
                         <tr>
-                            <th class="table__id-2 ">
-                                <p>
-                                    ID
-                                </p>
-                                <div class="filter">
-                                    <button type="button" class="filter__btn">
-                                        <img src="img/Icons/Filter.svg">
-                                    </button>
-                                </div>
-                            </th>
-                            <th class="table__product">
+                            <th id="table__product" class="table__product">
                                 <p>
                                     Product
                                 </p>
@@ -200,6 +177,9 @@
                                     Review text
                                 </p>
                             </th>
+                            <th class="table__date">
+                                Date
+                            </th>
                             <th class="table__action-2">
                                 <p>
                                     Action
@@ -209,10 +189,7 @@
                     </thead>
                     <tbody>
                         <tr class="table-data">
-                            <td class="table__id-2">
-                                1
-                            </td>
-                            <td class="table__product">
+                            <td id="table__product" class="table__product">
                                 Fruit mix “Double apple”
                             </td>
                             <td class="table__rate">
@@ -236,17 +213,22 @@
                             <td class="table__text">
                                 The taste is really good and deep. I could smell all notes of this amazing taste. I will definitely buy another one! 
                             </td>
+                            <td class="table__date">
+                                15.08.2022
+                            </td>
                             <td class="table__action-2">
-                                <button type="button" class="trash">
-                                    <i class="fa-regular fa-trash-can"></i>
-                                </button>
+                                <div class="buttons-wrap">
+                                    <button type="button" class="check trash">
+                                        <i class="fa-solid fa-check"></i>
+                                    </button>
+                                    <button type="button" class="trash">
+                                        <i class="fa-regular fa-trash-can"></i>
+                                    </button>
+                                </div>
                             </td>
                         </tr>
                         <tr class="table-data">
-                            <td class="table__id-2">
-                                2
-                            </td>
-                            <td class="table__product">
+                            <td id="table__product" class="table__product">
                                 Fruit mix “Peach”
                             </td>
                             <td class="table__rate">
@@ -270,17 +252,22 @@
                             <td class="table__text">
                                 The taste is really good and deep. I could smell all notes of this amazing taste. I will definitely buy another one! 
                             </td>
+                            <td class="table__date">
+                                15.08.2022
+                            </td>
                             <td class="table__action-2">
-                                <button type="button" class="trash">
-                                    <i class="fa-regular fa-trash-can"></i>
-                                </button>
+                                <div class="buttons-wrap">
+                                    <button type="button" class="check trash">
+                                        <i class="fa-solid fa-check"></i>
+                                    </button>
+                                    <button type="button" class="trash">
+                                        <i class="fa-regular fa-trash-can"></i>
+                                    </button>
+                                </div>
                             </td>
                         </tr>
                         <tr class="table-data">
-                            <td class="table__id-2">
-                                3
-                            </td>
-                            <td class="table__product">
+                            <td id="table__product" class="table__product">
                                 Fruit mix “Mango”
                             </td>
                             <td class="table__rate">
@@ -304,17 +291,22 @@
                             <td class="table__text">
                                 The taste is really good and deep. I could smell all notes of this amazing taste. I will definitely buy another one! 
                             </td>
+                            <td class="table__date">
+                                15.08.2022
+                            </td>
                             <td class="table__action-2">
-                                <button type="button" class="trash">
-                                    <i class="fa-regular fa-trash-can"></i>
-                                </button>
+                                <div class="buttons-wrap">
+                                    <button type="button" class="check trash">
+                                        <i class="fa-solid fa-check"></i>
+                                    </button>
+                                    <button type="button" class="trash">
+                                        <i class="fa-regular fa-trash-can"></i>
+                                    </button>
+                                </div>
                             </td>
                         </tr>
                         <tr class="table-data">
-                            <td class="table__id-2">
-                                4
-                            </td>
-                            <td class="table__product">
+                            <td id="table__product" class="table__product">
                                 Fruit mix “Double apple”
                             </td>
                             <td class="table__rate">
@@ -338,10 +330,18 @@
                             <td class="table__text">
                                 The taste is really good and deep. I could smell all notes of this amazing taste. I will definitely buy another one! 
                             </td>
+                            <td class="table__date">
+                                15.08.2022
+                            </td>
                             <td class="table__action-2">
-                                <button type="button" class="trash">
-                                    <i class="fa-regular fa-trash-can"></i>
-                                </button>
+                                <div class="buttons-wrap">
+                                    <button type="button" class="check trash">
+                                        <i class="fa-solid fa-check"></i>
+                                    </button>
+                                    <button type="button" class="trash">
+                                        <i class="fa-regular fa-trash-can"></i>
+                                    </button>
+                                </div>
                             </td>
                         </tr>
                     </tbody>
