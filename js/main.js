@@ -67,6 +67,8 @@ $(function () {
         list.hide();
         if (numInList > numToShow) {
           button.show();
+        } else {
+          button.hide();
         }
         list.slice(0, numToShow).show();
         button.click(function() {

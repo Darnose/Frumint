@@ -1730,8 +1730,21 @@ textarea {
 }
 
 .product-list__wrapper {
-    padding: 28px 27px 20px 28px;
+    max-width: 300px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    border: 2px solid transparent;
+    padding: 28px 27px 18px 27px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0);
 }
+
+.product-list__wrapper:hover {
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+    border: 2px solid rgba(0, 0, 0, 0.25);
+} 
 
 .product-list__img {
     filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25)) drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
@@ -1767,22 +1780,23 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px;
+    padding: 3px 38px;
     background: #6E9B63;
     border-radius: 21px;
     width: 158px;
-    height: 0;
+    height: 38px;
     font-size: 14px;
     color: #F5F5F5;
     margin-left: auto;
     margin-right: auto;
-    transition: all 0.4s ease;
+    transition: all 0.5s ease;
+    border: 2px solid transparent;
+    opacity: 0;
 }
 
 .hint-button.pull {
-    height: 38px;
-    padding: 3px 38px;
-    border: 2px solid transparent;
+    opacity: 1;
+    transition: all 0.5s ease;
 }
 
 .hint-button:hover {

@@ -275,6 +275,9 @@
     .error-404 {
         padding: 120px 0 140px;
     }
+    .product-list__wrapper {
+        padding: 18px 16px ;
+    }
 }
 
 /* 575-767px */
