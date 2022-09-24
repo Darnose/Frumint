@@ -161,7 +161,7 @@ table {
     position: absolute;
     display: inline-block;
     top: 0;
-    background-color: #337ab7;
+    background-color: #6E9B63;
     border-radius: 100%;
     width: 35px;
     height: 35px;
@@ -224,7 +224,7 @@ table {
     margin-left: 30px;
     text-transform: uppercase;
     height: 22px;
-    color: #55804A;
+    color: #578F49;
     font-weight: 500;
     line-height: 21px;
     justify-content: space-between;
@@ -241,7 +241,7 @@ table {
 
 .menu__item a:hover {
     transition: all 0.4s ease;
-    border-bottom: 1px solid #55804A;
+    border-bottom: 1px solid #578F49;
 }
 
 .menu__item:not(:last-child) {
@@ -819,15 +819,21 @@ textarea {
 .language {
     display: flex;
     cursor: pointer;
-    width: 47px;
 }
 
 .language__text {
     display: block;
     margin-right: 8px;
-    color: #55804A;
     font-size: 14px;
     cursor: pointer;
+}
+
+.menu__item_language p{
+    color: #578F49;
+}
+
+.menu__item_language a{
+    color: #8C8C8C;
 }
 
 /* ------ Second section ------ */
