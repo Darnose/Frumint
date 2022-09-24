@@ -139,7 +139,10 @@
     .menu__item_language {
         margin-top: 40px;
     }
-    .language__text {
+    .menu__item_language p{
+        color: #F5F5F5;
+    }
+    .menu__item_language a{
         color: #F5F5F5;
     }
     .active {
