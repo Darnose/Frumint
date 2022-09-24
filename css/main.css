@@ -1090,19 +1090,19 @@ textarea {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fff;
 }
 
 .news-list__overlay:hover {
     opacity: 1;
 }
 
-.news-list__overlay a {
+.news-list__overlay p {
+    color: #fff;
     border-bottom: 1px solid transparent;
     transition: all 0.5s ease;
 }
 
-.news-list__overlay a:hover {
+.news-list__overlay p:hover {
     border-bottom: 1px solid #fff;
 }
 
@@ -1743,7 +1743,7 @@ textarea {
 } 
 
 .product-list__img {
-    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(4px 4px 3px rgba(0, 0, 0, 0.4));
     width: 207px;
     height: 271px;
     margin-left: auto;
@@ -1757,7 +1757,7 @@ textarea {
 
 .product-list__text {
     margin-top: 24px;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
     text-align: center;
 }
 
@@ -1769,7 +1769,7 @@ textarea {
 .product-stars-small {
     font-size: 12px;
     color:#6E9B63;
-    margin-left: 8px;
+    margin-left: 12px;
 }
 
 .hint-button {
