@@ -278,6 +278,20 @@
     .product-list__wrapper {
         padding: 18px 16px ;
     }
+    .footer {
+        padding: 56px 0 80px;
+    }
+    .company {
+        margin-top: 35px;
+        margin-bottom: 0!important;
+    }
+    .adress {
+        margin-top: 35px;
+        margin-bottom: 0!important;
+    }
+    .network {
+        margin-top: 35px;
+    }
 }
 
 /* 575-767px */
@@ -444,6 +458,28 @@
     .big-inscription img {
         width: 200px;
         height: 140px;
+    }
+    .footer-mail {
+        max-width: 260px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-mail a {
+        width: 180px;
+    }
+    .footer-phone a {
+        width: 180px;
+    }
+    .footer-phone {
+        max-width: 260px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -692,5 +728,19 @@
     .product-list h1 {
         margin-bottom: 30px;
     }
-    
+    .footer {
+        padding: 56px 0 60px
+    }
+    .footer-mail {
+        margin-top: 20px;
+    }
+    .company {
+        margin-top: 25px;
+    }
+    .adress {
+        margin-top: 25px;
+    }
+    .network {
+        margin-top: 25px;
+    }
 }
