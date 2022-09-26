@@ -13,7 +13,7 @@ body {
 	margin: 0;
 	font-size: 16px;
     font-weight: 400;
-    background: #F5F5F5;
+    background: #FCFCFC;
     overflow-x: hidden !important;
 }
 
@@ -56,6 +56,7 @@ h2 {
     line-height: 35.2px;
     letter-spacing: -0.03em;
     color: #6E9B63;
+    font-weight: 600;
 }
 
 h3 {
@@ -1353,23 +1354,29 @@ textarea {
 }
 
 .order {
+    display: flex;
+    justify-content: center;
+    align-items:center;
     background: #6E9B63;
     border-radius: 38px;
-    padding: 12px 44px;
+    height: 48px;
+    width: 261px;
+    font-weight: 600;
     color: #F5F5F5;
     font-size: 16px;
     line-height: 24px;
-    border: 2px solid transparent;
+    border: 1px solid transparent;
     transition: all 0.5s ease;
 }
 
 .order:hover {
     background: #F5F5F5;
     color: #6E9B63;
-    border: 2px solid #6E9B63;
+    border: 1px solid #6E9B63;
 }
 
 .order i {
+    margin-top: 2px;
     margin-left: 7px;
     font-size: 20px;
 }
@@ -1522,11 +1529,16 @@ textarea {
     width: 100%;
     height: 142px;
     background: inherit;
-    border-radius: 16px;
+    border-radius: 12px;
     padding: 8px 20px;
     margin-top: 20px;
     margin-bottom: 28px;
     outline: 0;
+    overflow-y: scroll;
+}
+
+.review-text::-webkit-scrollbar-track {
+    background: transparent;
 }
 
 .review-name {
@@ -1546,8 +1558,9 @@ textarea {
     margin-right: auto;
     background: #6E9B63;
     border-radius: 21px;
-    border: 2px solid transparent;
+    border: 1px solid transparent;
     transition: all 0.4s ease;
+    font-weight: 600;
     color: #F5F5F5;
 }
 
@@ -1557,7 +1570,7 @@ textarea {
 
 .review__btn:hover {
     background: transparent;
-    border: 2px solid #6E9B63;
+    border: 1px solid #6E9B63;
     color: #6E9B63;
 }
 
@@ -1827,7 +1840,6 @@ textarea {
 .big-inscription img {
     width: 275px;
     height: 178px;
-    filter: blur(1px);
     transform: rotate(-90deg);
 }
 
@@ -1839,14 +1851,15 @@ textarea {
     text-align: center;
     color: #6E9B63;
     margin-top: 25px;
+    font-weight: 600;
     transition: all 0.5s ease;
-    border-bottom: 1px solid transparent;
+    text-decoration:underline;
     cursor:pointer;
 }
 
 .go-back:hover {
     color: #6E9B63;
-    border-bottom: 1px solid #6E9B63;
+    text-decoration:underline;
 }
 
 /* ------ Third section ------ */
@@ -2197,6 +2210,10 @@ textarea {
     margin-bottom: 4px;
 }
 
+.logo-footer a {
+    border-bottom: none!important
+}
+
 .company {
     width: 170px;
     margin-bottom: 24px!important;
@@ -2205,10 +2222,6 @@ textarea {
 .adress {
     width: 180px;
     margin-bottom: 53px!important;
-}
-
-.footer i {
-    font-size: 22px;
 }
 
 .insta {
@@ -2220,8 +2233,8 @@ textarea {
     border-bottom: none!important;
 }
 
-.insta:hover, .facebook:hover {
-    color: #adadad;
+.network {
+    font-size: 22px;
 }
 
 .footer a {
