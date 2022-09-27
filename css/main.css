@@ -1067,7 +1067,10 @@ textarea {
 
 .news-list__text {
     color: #424242;
-    margin-bottom: 15px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical; 
 }
 
 .news-list time {
