@@ -26,16 +26,6 @@ $(function () {
         });
     });
 
-    $(document).ready(function(){
-        $('#inputImage').change(function(e){
-            var reader = new FileReader();
-            reader.onload = function(e){
-                $('#showImage').attr('src',e.target.result);
-            }
-            reader.readAsDataURL(e.target.files['0']);
-        });
-    });
-
     $(document).ready(function () {
         $('.product-list__wrapper').hover(function () {
             $(this).children(".hint-button").toggleClass('pull');
